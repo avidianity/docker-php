@@ -24,6 +24,7 @@ RUN apt-get update \
     php7.3-ldap \
     php7.3-msgpack php7.3-igbinary php7.3-redis php7.3-swoole \
     php7.3-memcached php7.3-pcov php7.3-xdebug \
+    php7.3-imagick \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
     && curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
     && apt-get install -y nodejs \

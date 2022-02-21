@@ -1,6 +1,6 @@
 # docker-php
 
-Prebuilt PHP  docker images for Laravel. (From Laravel Sail)
+Prebuilt PHP docker images for Laravel. (From Laravel Sail)
 
 Available Images
 
